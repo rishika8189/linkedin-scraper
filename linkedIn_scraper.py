@@ -28,7 +28,7 @@ username.send_keys("rishikatec64@gmail.com")
 pword = driver.find_element(By.ID, "password")
  
 # Enter Your Password
-pword.send_keys("Rishumona@2003")       
+pword.send_keys("Password")       
  
 # Clicking on the log in button
 driver.find_element(By.XPATH, "//button[@type='submit']").click() 
